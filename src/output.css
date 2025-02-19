@@ -809,9 +809,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1661,9 +1658,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
   .p-2\.5 {
     padding: calc(var(--spacing) * 2.5);
   }
@@ -1672,12 +1666,6 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
-  }
-  .pl-2 {
-    padding-left: calc(var(--spacing) * 2);
   }
   .pl-2\.5 {
     padding-left: calc(var(--spacing) * 2.5);
@@ -2315,11 +2303,6 @@
       }
     }
   }
-  .max-xl\:place-items-center {
-    @media (width < 80rem) {
-      place-items: center;
-    }
-  }
   .max-sm\:grid {
     @media (width < 40rem) {
       display: grid;
@@ -2345,12 +2328,6 @@
       padding-block: calc(var(--spacing) * 3);
     }
   }
-  .max-sm\:text-2xl {
-    @media (width < 40rem) {
-      font-size: var(--text-2xl);
-      line-height: var(--tw-leading, var(--text-2xl--line-height));
-    }
-  }
   .max-sm\:text-4xl {
     @media (width < 40rem) {
       font-size: var(--text-4xl);
@@ -2374,39 +2351,14 @@
       width: 90%;
     }
   }
-  .lg\:text-\[30px\] {
-    @media (width >= 64rem) {
-      font-size: 30px;
-    }
-  }
   .xl\:flex {
     @media (width >= 80rem) {
       display: flex;
     }
   }
-  .xl\:h-\[500px\] {
-    @media (width >= 80rem) {
-      height: 500px;
-    }
-  }
   .xl\:w-\[400px\] {
     @media (width >= 80rem) {
       width: 400px;
-    }
-  }
-  .xl\:w-\[600px\] {
-    @media (width >= 80rem) {
-      width: 600px;
-    }
-  }
-  .xl\:place-items-center {
-    @media (width >= 80rem) {
-      place-items: center;
-    }
-  }
-  .xl\:place-items-end {
-    @media (width >= 80rem) {
-      place-items: end;
     }
   }
   .xl\:items-center {
@@ -2419,35 +2371,15 @@
       justify-content: center;
     }
   }
-  .xl\:rounded-xl {
-    @media (width >= 80rem) {
-      border-radius: var(--radius-xl);
-    }
-  }
   .xl\:p-5 {
     @media (width >= 80rem) {
       padding: calc(var(--spacing) * 5);
-    }
-  }
-  .xl\:p-55 {
-    @media (width >= 80rem) {
-      padding: calc(var(--spacing) * 55);
     }
   }
   .xl\:text-2xl {
     @media (width >= 80rem) {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
-    }
-  }
-  .xl\:text-\[0px\] {
-    @media (width >= 80rem) {
-      font-size: 0px;
-    }
-  }
-  .xl\:text-\[30px\] {
-    @media (width >= 80rem) {
-      font-size: 30px;
     }
   }
   .xl\:text-\[50px\] {
